@@ -1,0 +1,9 @@
+{% extends "app/basic.html" %}
+{% block body %}
+<h1>view your details</h1>
+    <p>Welcome, {{ user.name }}!</p>
+    <p>Email: {{ user.email }}</p>
+    <p>Phone: {{ user.phone }}</p>
+    <p>Date of Birth: {{ user.dob }}</p>
+    <p>City: {{ user.city }}</p>
+{% endblock %}
